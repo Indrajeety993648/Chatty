@@ -18,7 +18,7 @@ export const generateToken = (userId, res) => {
     };
 
     // Set token as an HTTP-only cookie
-    res.cookie('token', token, cookieOptions);
+    // res.cookie('token', token, cookieOptions);
 
     return token;
 };
